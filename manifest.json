@@ -1,0 +1,40 @@
+{
+    "manifest_version": 3,
+    "name": "LeetCodePal",
+    "version": "1.0",
+    "description": "Chatbot assistant for solving LeetCode problems using AI",
+    "permissions": [
+        "storage",
+        "activeTab"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icons/robo-active.png"
+    },
+  "icons": {
+    "128": "icons/robo-active.png"
+  },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://leetcode.com/*",
+                "https://www.leetcode.com/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'"
+    },
+    "web_accessible_resources": [
+    {
+      "resources": ["icons/icon128.png", "icons/robo-active.png", "icons/robo-sleep.png"],
+      "matches": [
+                "https://leetcode.com/*",
+                "https://www.leetcode.com/*"
+            ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LeetCode AI Assistant</title>
+    <style>
+      
+      body {
+        font-family: "Segoe UI", Arial, sans-serif;
+        width: 350px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        background: #000000;
+      }
+
+     
+      #input-area {
+        display: flex;
+        padding: 8px;
+        background: #fff;
+        border-top: 1px solid #ddd;
+      }
+
+      #user-input {
+        flex: 1;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        outline: none;
+      }
+
+      #api-settings {
+        padding: 10px;
+        border-top: 1px solid #000000;
+        background: #000000;
+      }
+
+      #api-key {
+        width: 70%;
+        padding: 6px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+      }
+
+      #save-key {
+        padding: 6px 10px;
+        margin-left: 5px;
+        background: #64098c;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        width: 77.05px;
+        text-align: center;
+      }
+
+      #save-key:hover {
+        background: #4e076f;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="api-settings">
+      <label for="api-key" style="color:#fff">Gemini API Key:</label><br />
+      <input id="api-key" type="password" placeholder="Enter Gemini API Key" style="margin-top: 10px;"/>
+      <button id="save-key">Save Key</button>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
