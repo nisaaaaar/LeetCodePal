@@ -19,8 +19,11 @@ It integrates with **Google Gemini API** to provide conversational hints, target
 .
 ├── content.js   # Core logic – injects widget, handles chat, communicates with Gemini API
 ├── popup.js     # Extension popup – lets you save your Gemini API key
+├── popup.html     # Extension popup – lets you save your Gemini API key
 ├── icons/       # Extension icons (robo-sleep.png, robo-active.png)
 ├── manifest.json # Chrome extension config
+├── backgroud.js 
+├── styles.css 
 ```
 
 ## 🔧 Installation
