@@ -53,14 +53,8 @@ It integrates with **Google Gemini API** to provide conversational hints, target
 ## 📸 Screenshot
 
 <img width="1911" height="857" alt="Screenshot 2025-09-18 220914" src="https://github.com/user-attachments/assets/f34a1e16-a5c1-4fb2-b483-f2907200b5ee" />
-<img width="510" height="160" alt="Screenshot 2025-09-18 221159" src="https://github.com/user-attachments/assets/e164caf0-809d-4e7c-ab0a-cf224cdfec06" />
 <img width="1133" height="804" alt="Screenshot 2025-09-18 220927" src="https://github.com/user-attachments/assets/178e98bd-dabf-4f0f-a1f3-7912380366ee" />
-
-## 🚀 Future Improvements
-
-* Support for multiple AI providers (OpenAI, Claude, etc.)
-* Dark/light theme customization
-* Export chat history
+<img width="510" height="160" alt="Screenshot 2025-09-18 221159" src="https://github.com/user-attachments/assets/e164caf0-809d-4e7c-ab0a-cf224cdfec06" />
 
 ## 📝 License
 
