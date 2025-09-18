@@ -65,5 +65,3 @@ It integrates with **Google Gemini API** to provide conversational hints, target
 ## 📝 License
 
 MIT License © 2025 \ Nisar Ahmad
-
-Would you like me to also **generate a `manifest.json` template** for this extension (so anyone cloning your repo can run it directly)?
